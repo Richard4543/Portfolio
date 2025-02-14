@@ -18,7 +18,7 @@ const projectsData: Project[] = [
     title: 'Tag Generator',
     description: "Quickly generate Tags, UDT's, and Sample Tags for Ignition 8.1.x",
     image: '/domposer.png',
-    downloadUrl: '/cookiemunch.zip'
+    githubUrl: 'https://github.com/yourusername/domposer',
   },
   // {
   //   id: 2,

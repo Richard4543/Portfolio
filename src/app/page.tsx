@@ -1,8 +1,15 @@
 'use client';
+<<<<<<< HEAD
 // import React, { useState } from 'react';
 import React, { } from 'react';
 // import Link from 'next/link';
 import { FaTwitch, FaGithub, FaLinkedin, FaDiscord } from 'react-icons/fa';
+=======
+
+import React, { useState } from 'react';
+import Link from 'next/link';
+import { FaBars, FaTimes, FaTwitter, FaGithub, FaLinkedin } from 'react-icons/fa';
+>>>>>>> parent of 18fb1ad (Updated Contacts)
 
 export default function HomePage() {
   return (
@@ -30,17 +37,14 @@ export default function HomePage() {
 
       {/* Vertical Social Media Icons on the Left (Desktop Only) */}
       <div className="hidden md:flex absolute left-4 top-1/2 transform -translate-y-1/2 z-30 flex-col space-y-4">
-        <a href="https://www.twitch.tv/freezearrays" className="text-gray-700 hover:text-gray-900">
-          <FaTwitch size={20} />
+        <a href="#" className="text-gray-700 hover:text-gray-900">
+          <FaTwitter size={20} />
         </a>
-        <a href="https://github.com/Richard4543" className="text-gray-700 hover:text-gray-900">
+        <a href="#" className="text-gray-700 hover:text-gray-900">
           <FaGithub size={20} />
         </a>
-        <a href="https://www.linkedin.com/in/ricardo-hernandez-cs/" className="text-gray-700 hover:text-gray-900">
+        <a href="#" className="text-gray-700 hover:text-gray-900">
           <FaLinkedin size={20} />
-        </a>
-        <a href="https://discord.gg/GdDKNnA2qh" className="text-gray-700 hover:text-gray-900">
-          <FaDiscord size={20} />
         </a>
       </div>
     </div>
