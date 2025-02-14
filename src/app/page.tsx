@@ -9,6 +9,9 @@ import { FaTwitch, FaGithub, FaLinkedin, FaDiscord } from 'react-icons/fa';
 import React, { useState } from 'react';
 import Link from 'next/link';
 import { FaBars, FaTimes, FaTwitter, FaGithub, FaLinkedin } from 'react-icons/fa';
+<<<<<<< HEAD
+>>>>>>> parent of 18fb1ad (Updated Contacts)
+=======
 >>>>>>> parent of 18fb1ad (Updated Contacts)
 
 export default function HomePage() {
