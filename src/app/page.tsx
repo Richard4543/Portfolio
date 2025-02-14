@@ -1,7 +1,7 @@
 'use client';
-
-import React, { useState } from 'react';
-import Link from 'next/link';
+// import React, { useState } from 'react';
+import React, { } from 'react';
+// import Link from 'next/link';
 import { FaTwitch, FaGithub, FaLinkedin, FaDiscord } from 'react-icons/fa';
 
 export default function HomePage() {
@@ -14,7 +14,7 @@ export default function HomePage() {
         <div className="flex-1 flex items-center justify-center bg-[#cabcb1]">
           <div className="max-w-xl text-center px-4">
             <h1 className="text-6xl font-bold mb-4 text-gray-800">Welcome</h1>
-            <p className="text-xl text-gray-700">Hi, I'm Ricardo.</p>
+            <p className="text-xl text-gray-700">Hi, I&apos;m Ricardo.</p>
           </div>
         </div>
 
